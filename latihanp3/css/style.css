@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0; /* background untuk halaman belakang */
+}
+
+header {
+    background-color: #34C759; /* background warna untuk header */
+    color: #fff; /* warna tulisan bold di header */
+    padding: 30px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #ffffff; /* warna tulisan kecil di header */
+}
+
+header .logo {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+header .logo img {
+    width: 150px; /* untuk mengatur lebar logonya */
+    height: 150px; /* untuk mengatur tinggi logonya */
+}
+
+section {
+    background-color: #fff; /* warna backgroud di tag section */
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+button {
+    background-color: #34C759; /* warna untuk tombol */
+    color: #fff; /* warna tulisan di tombolnya */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #2E865F; /* warna di tombol ketika di interaksi */
+}
+
+#promo {
+    background-image: linear-gradient(to bottom, #34C759, #2E865F); /* gradasi 2 warna di bagian promo */
+    background-size: 100% 200px;
+    background-position: 0% 100%;
+    transition: background-position 0.5s ease-out;
+}
+
+#promo:hover {
+    background-position: 100% 100%;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin-bottom: 10px;
+}
+
+#menu li:before {
+    content: "\2024";
+    color: #34C759; 
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #34C759; /* warna untuk bagian footer */
+    color: #fff; /* warna di tulisannya */
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
